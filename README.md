@@ -53,7 +53,33 @@ If you prefer not to use either of the aforementioned dependency managers, you c
 <a name="usage"> Usage </a>
 --------------
 
-TBA
+1. Install package into your application project
+2. Create a new EasyTipView control:
+
+```c#
+_myTooltip = new EasyTipView.EasyTipView();
+_myTooltip.Text = new Foundation.NSString("This is a tooltip sample!");
+_myTooltip.ArrowPosition = EasyTipView.ArrowPosition.Right;
+_myTooltip.DidDismiss += (sender, e) => 
+            {
+                // do something on dismiss
+            };
+
+_myButton1.TouchUpInside += (sender, e) =>
+{
+    _myTooltip.Show(_myButton1, this.View, true);
+};
+
+_myButton2.TouchUpInside += (sender, e) =>
+{
+    _myTooltip.Dismiss();
+};
+```
+
+As you can see from the example above, `Show` method takes three parameters:
+- View to which the tooltip will be anchored
+- Superview where the tooltip will be added on screen
+- Animated will display / hide the tooltip using animations
 
 <a name="customising"> Customising the appearance </a>
 --------------
