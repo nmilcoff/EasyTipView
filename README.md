@@ -1,6 +1,9 @@
 
 **Note:** This repository contains a port to C# of the original library, which is written in Swift.
 
+[![NuGet](https://img.shields.io/nuget/v/EasyTipView.svg?label=NuGet)](https://www.nuget.org/packages/EasyTipView/)
+[![Build Status](https://www.bitrise.io/app/03eed555a70b3001/status.svg?token=bQC2er8s6MQ4oAMR23RtHQ&branch=master)](https://www.bitrise.io/app/03eed555a70b3001/status.svg?token=bQC2er8s6MQ4oAMR23RtHQ&branch=master)
+
 --------------
 
 <img src="https://raw.githubusercontent.com/teodorpatras/EasyTipView/master/assets/easytipview.png" alt="EasyTipView: fully customisable tooltip view written in Swift" style="width: 500px;"/>
@@ -36,7 +39,7 @@ Description
 
 #### Nuget
 
-TBA
+> Install-Package EasyTipView
 
 #### Manually
 
