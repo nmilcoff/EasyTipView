@@ -12,7 +12,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>EasyTipView</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Nicolas Milcoff</Authors>
     <PackageLicenseUrl>https://github.com/nmilcoff/EasyTipView/blob/master/LICENSE.md</PackageLicenseUrl>
     <Owners>Nicolas Milcoff</Owners>
@@ -21,6 +21,7 @@
     <PackageTags>Xamarin, iOS, tooltip, control, library</PackageTags>
     <Title>EasyTipView</Title>
     <Description>EasyTipView is a fully customisable tooltip widget for Xamarin.iOS that can be used as a call to action or informative tip.</Description>
+    <PackageIconUrl>https://raw.githubusercontent.com/nmilcoff/EasyTipView/master/Artwork/easytipview.png</PackageIconUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
